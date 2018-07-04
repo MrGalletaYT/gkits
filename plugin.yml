@@ -7,15 +7,11 @@ description: Add kits to your server
 website: https://github.com/QuiltedTuba2798/AdvancedKits
 softdepend: [PurePerms, PiggyCustomEnchants, FormAPI]
 commands:
- kit:
+ gkit:
   description: Get a kit!
   usage: "/kit <kitName>"
-  aliases: [ak, advancedkits]
+  aliases: [godkit]
   permission: advancedkits.command
- akreload:
-  descrpition: Reload Kits settings
-  usage: "/akreload"
-  permission: advancedkits.admin
 permissions:
  advancedkits.command:
   description: "Allows the user to run /kit command"
