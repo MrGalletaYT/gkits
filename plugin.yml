@@ -3,13 +3,13 @@ main: AdvancedKits\Main
 version: 5.2.3
 api: [3.0.0]
 author: QuiltedTuba2798
-description: Add kits to your server
-website: https://github.com/QuiltedTuba2798/AdvancedKits
+description: ADDS GKITS TO YOUR MINECRAFT SERVER
+website: https://github.com/QuiltedTuba2798/gkits
 softdepend: [PurePerms, PiggyCustomEnchants, FormAPI]
 commands:
  gkit:
-  description: Get a kit!
-  usage: "/kit <kitName>"
+  description: Claim A Gkit
+  usage: "/gkit [gkitname]"
   aliases: [godkit]
   permission: advancedkits.command
 permissions:
